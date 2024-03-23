@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#gasto-form {
+    margin-bottom: 20px;
+}
+
+#gasto-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#gasto-form input[type="text"],
+#gasto-form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#gasto-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#gasto-form button:hover {
+    background-color: #0056b3;
+}
+
+#gastos-list {
+        max-width: 600px;
+        margin: 0 auto;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+
+#gastos-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#gastos-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
